@@ -1,8 +1,8 @@
-#  Infrastructure as Code (IaC) in 5 Minuten verstehen
+# Infrastructure as Code (IaC) in 5 Minuten verstehen
 
 In diesem Artikel wirst Du innerhalb von 5 Minuten erfahren, was "Infrastructure as Code (IaC)" ist und was sich wirklich alles hinter dem Begriff versteckt. Denn IaC ist mehr als nur Terraform! Durch den gewonnenen Überblick wirst Du problemlos das richtige Tooling für Dein Projekt zusammenstellen können, versprochen!
 
-##  Was ist Infrastructure as Code?
+## Was ist Infrastructure as Code?
 
 Kurz gesagt versteht man unter IaC den Prozess der Automatisierung von Infrastruktur unter Zuhilfenahme von Prinzipien und Praktiken aus der Softwareentwicklung.
 
