@@ -38,7 +38,7 @@ Aufgrund dieser Tatsache etablierte sich das PhoenixServer Pattern, welches dies
 
 Doch ohne Automatisierung der Infrastruktur hätte man dies nicht bewältigen können. Anfangs Versuchte man die Automatisierung mit Shell-Skripten abzubilden. Schnell wurde klar, dass diese Scripte durch ihre oftmals hohe Komplexität und die dadurch schlechte Portierfähigkeit auf die verschiedensten Serversysteme, nicht das Mittel der Wahl sein konnte. 1993 wurde mit dem Projekt „CFEngine“ das erste IaC Tool entwickelt. CFEngine bietet ein Betriebssystem unabhängige Schnittstelle und abstrahiert damit die Unterschiede der verschiednen Linux Distributionen. Mit seiner deklarativen und domainspezifischen Beschreibungssprache vereinfachte das Tool die Konfiguration von Servern ungemein. Heute existieren viele ähnliche Lösungen. 
 
-![]()
+![][image-1]
 
 
 ## Die verschiedenen Phasen
@@ -56,6 +56,7 @@ Wenn man IaC anwendet, unterscheidet man zwischen zwei Phasen. Jede Phase deckt 
 
 Um es einwenig zu abstrahieren, werde ich nachfolgend von dem Initialen Infrastruktur Setup und derem Management sowie vom initialen Applikations Setup und dessen Management reden. Dies deckt dann die beiden Phasen komplett ab.
 
+![][image-2]
 
 ## Die verschiedenen Arten von IaC
 ### Scripte
@@ -144,3 +145,5 @@ Tatsächlich können mit ihnen nicht nur Server, sondern auch Caches, Load Balan
 [20]:	https://aws.amazon.com/de/cloudformation/
 [21]:	https://www.pulumi.com/
 
+[image-1]:	https://media.githubusercontent.com/media/DoPaNik/BlogPosts/main/InfrastructureAsCodeIn5Minuten/img/iac-zeitstrahl.jpg
+[image-2]:	https://media.githubusercontent.com/media/DoPaNik/BlogPosts/main/InfrastructureAsCodeIn5Minuten/img/iac-tools.jpg
